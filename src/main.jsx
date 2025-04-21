@@ -10,11 +10,9 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/school-portfolio">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
